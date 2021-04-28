@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "titre";
+  src: url(./font/Roboto_Condensed/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+  font-family: "texte";
+  src: url(./font/Roboto/Roboto-Regular.ttf);
+}

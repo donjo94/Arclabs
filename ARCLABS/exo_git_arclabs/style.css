@@ -1,0 +1,310 @@
+/* HEADER  */
+
+.zarina {
+  position: relative;
+  background-image: url(./IMG/header-bg.jpg);
+  background-position: center;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+.nav-item a {
+  text-align: center;
+}
+.header-body {
+  padding-top: 80px;
+  height: 100vh;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.header-mainSocial {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 250px;
+}
+.header-body button {
+  margin-top: 50px;
+
+  height: 35px;
+  width: 120px;
+  border: 2px solid white;
+  background: none;
+}
+.header-body a {
+  color: white;
+}
+.header-mainSocial a {
+  color: white;
+  padding: 0 7px;
+}
+.header-container {
+  background-color: rgba(21, 21, 58, 0.534);
+}
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    z-index: 1;
+  } */
+
+/* SECOND */
+
+.second {
+  text-align: center;
+}
+.logo1s {
+  font-size: 3rem;
+  border: 1px solid grey;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+}
+
+.txt1s {
+  margin: 0 10%;
+  font-family: "texte";
+  color: grey;
+}
+#secondtitre {
+  font-family: "titre";
+  color: black;
+}
+
+/*******************************************
+*************  We Are World  ***************
+*******************************************/
+
+.bg-waw {
+  background: rgb(241, 241, 241);
+}
+
+.container-waw {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-waw {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img-waw img {
+  height: 230px;
+  margin-top: 50px;
+}
+
+.txt-waw {
+  margin: 0 5%;
+}
+
+.txt-waw h4 {
+  font-family: "texte";
+  color: goldenrod;
+}
+
+.txt-waw h3 {
+  font-family: "titre";
+  color: rgb(10, 10, 49);
+}
+
+.txt-waw p {
+  font-family: "texte";
+  color: rgb(163, 163, 163);
+}
+
+#btn-waw {
+  font-family: "texte";
+  color: rgb(10, 10, 49);
+  border: 2px solid goldenrod;
+  padding: 10px 25px;
+  margin-bottom: 40px;
+}
+
+/*************************************************************** CSS VIEW ************************************************************/
+
+#titre {
+  margin: 5rem 0 1rem 0;
+}
+
+li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  margin: 3rem 1rem 3rem 0rem;
+  list-style-type: none;
+  position: relative;
+  justify-content: space-between;
+}
+
+.work {
+  text-align: center;
+  color: goldenrod;
+}
+
+.view {
+  text-align: center;
+  color: black;
+}
+
+.card-body {
+  border-radius: 20px 20px;
+}
+
+.card-title {
+  background: white;
+  color: rgb(5, 5, 5);
+  height: 6rem;
+  margin: 0rem 0 5rem 5rem;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#card1 {
+  background: url(./IMG/p1.png) center/cover;
+  height: 30rem;
+  margin: 0;
+  padding: 0;
+}
+
+#card2 {
+  background: url(./IMG/p2.png) center/cover;
+  height: 15rem;
+  margin: 0;
+  padding: 0;
+}
+
+#card3 {
+  background: url(./IMG/p3.png) center/cover;
+  height: 15rem;
+  margin: 0;
+  padding: 0;
+}
+
+#card4 {
+  background: url(./IMG/p4.png) center/cover;
+  height: 30rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* TESTIMONIALS */
+
+#vid {
+  background-image: url(./IMG/ct1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+
+#vid-opak {
+  padding: 10px;
+  background-color: rgba(8, 7, 59, 0.644);
+  width: 100%;
+  height: 100%;
+}
+
+#vid-opak > * {
+  margin: 5% auto;
+}
+
+#vid-play {
+  position: relative;
+  background-color: white;
+  color: peru;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+#vid-play > div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+#testi-top {
+  text-align: center;
+}
+
+#testi-body {
+  display: inline;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 992px) {
+  .container-waw {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  .img-waw img {
+    height: 400px;
+    margin-top: 50px;
+  }
+  .txt-waw {
+    margin-left: 5%;
+  }
+  #btn-waw {
+    outline-style: none;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-bottom: 0;
+  }
+
+  #btn-waw:hover {
+    background: rgb(60, 60, 90);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: gold;
+  }
+  .txt-waw h3 {
+    font-size: 3rem;
+  }
+  .second {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7rem 0;
+  }
+  /* zzzz */
+  .navbar-nav {
+    margin-left: 300px;
+  }
+  .nav-item {
+    padding-right: 50px;
+  }
+  nav {
+    background: transparent;
+  }
+  .header-body {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .header-mainSocial {
+    justify-content: start;
+  }
+}
